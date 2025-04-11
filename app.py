@@ -229,3 +229,4 @@ elif selected == "Chat General":
     st.markdown("### Mensajes recientes:")
     for nombre, texto, hora in reversed(mensajes):
         st.markdown(f"**{nombre}** ({hora}): {texto}")
+    #final
